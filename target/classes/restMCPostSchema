@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "event": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array"
+    },
+    "room": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "base": {
+          "type": "object",
+          "properties": {
+            "ext": {
+              "type": "string"
+            },
+            "filename": {
+              "type": "string"
+            },
+            "basePath": {
+              "type": "string"
+            },
+            "formats": {
+              "type": "array"
+            }
+          }
+        },
+        "img_id": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

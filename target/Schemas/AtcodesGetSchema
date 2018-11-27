@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "media": {
+      "type": "object",
+      "properties": {
+        "videos": {
+          "type": "array"
+        },
+        "images": {
+          "type": "array"
+        }
+      }
+    },
+    "history": {
+      "type": "array"
+    },
+    "drupal": {
+      "type": "array"
+    }
+  }
+}
